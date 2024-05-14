@@ -146,7 +146,7 @@
 
       calculatePayableTotal();
     }
-
+    
     function calculatePayableTotal() {
       let subTotal = parseFloat(document.getElementById('total').value);
       let diskon = parseFloat(document.getElementById('diskon').value);
